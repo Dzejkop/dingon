@@ -2,6 +2,11 @@
 name = "dingon"
 version = "0.1.0"
 edition = "2021"
+description = "DING!!!"
+license = "MIT"
+homepage = "https://github.com/dzejkop/dingon"
+repository = "https://github.com/dzejkop/dingon"
+authors = [ "Jakub Trąd <jakubtrad@gmail.com>" ]
 
 [dependencies]
 rodio = "0.18.1"
