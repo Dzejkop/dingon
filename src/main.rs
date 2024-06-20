@@ -43,5 +43,5 @@ fn play_sound(sound_data: &'static [u8]) {
     stream_handle.play_raw(source.convert_samples()).unwrap();
 
     // Sleep for the duration of the sound to ensure it plays completely
-    std::thread::sleep(std::time::Duration::from_secs(2));
+    std::thread::sleep(std::time::Duration::from_secs_f32(0.4));
 }
